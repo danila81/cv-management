@@ -1,15 +1,44 @@
 ---
 templateKey: blog-post
-title: Making sense of the SCAA’s new Flavor Wheel
-date: 2016-12-17T15:04:10.000Z
-description: >-
-  The Coffee Taster’s Flavor Wheel, the official resource used by coffee
-  tasters, has been revised for the first time this year.
-featuredpost: true
+lastname: Lastname
+education: Betriebswirt
+experiences:
+  - Experience 1
+  - Experience2
+  - Experience3
 featuredimage: /img/flavor_wheel.jpg
+featuredpost: true
+date: 2016-12-17T15:04:10.000Z
+title: Software Engineer
 tags:
   - flavor
   - tasting
+firstname: Firstname
+languages: 'German, English'
+workexperience: 2008-01-17T14:39:41.912Z
+image: /img/photo.jpg
+projects:
+  projects:
+    - visible: true
+      project: 1 Projektname
+      duration: 1 Jahr
+      text: |-
+        - Beschreibung1
+        - Beschreibung2
+        - Beschreibung3
+        - Beschreibung4
+    - visible: true
+      project: 2 Projektname
+      duration: 2 Jahre
+      text: |-
+        - Beschreibung1
+        - Beschreibung2
+        - Beschreibung3
+        - Beschreibung4
+description: >-
+  The Coffee Taster’s Flavor Wheel, the official resource used by coffee
+  tasters, has been revised for the first time this year.
+birthday: 2020-04-03T13:39:41.894Z
 ---
 ![flavor wheel](/img/flavor_wheel.jpg)
 
