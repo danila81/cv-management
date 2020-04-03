@@ -36,7 +36,7 @@ collections:
           widget: "datetime",
         }
       - { label: "Image", name: "image", widget: image }
-      - { label: "Experiences", name: "experiences", widget: "list" }
+      - { label: "Experiences", name: "experiences", widget: "text" }
       - {
           label: Projects,
           name: projects,
