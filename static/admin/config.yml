@@ -12,9 +12,9 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "blog"
+  - name: "cvinternal"
     label: "CV Internal"
-    folder: "src/pages/blog"
+    folder: "src/pages/cvinternal"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
