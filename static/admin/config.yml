@@ -56,7 +56,7 @@ collections:
                   ],
               },
             ],
-        }
+        },
   - name: "cvexternal"
     label: "CV External"
     folder: "src/pages/cvexternal"
