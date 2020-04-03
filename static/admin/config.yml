@@ -57,3 +57,48 @@ collections:
               },
             ],
         }
+  - name: "cvexternal"
+    label: "CV External"
+    folder: "src/pages/cvexternal"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}_{{title}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "blog-post",
+        }
+      - { label: "Firstname", name: "firstname", widget: "string" }
+      - { label: "Lastname", name: "lastname", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Languages", name: "languages", widget: "string" }
+      - { label: "Education", name: "education", widget: "string" }
+      - { label: "Birthday", name: "birthday", widget: "datetime" }
+      - {
+          label: "Work experience since",
+          name: "workexperience",
+          widget: "datetime",
+        }
+      - { label: "Image", name: "image", widget: image }
+      - { label: "Experiences", name: "experiences", widget: "text" }
+      - {
+          label: Projects,
+          name: projects,
+          widget: object,
+          fields:
+            [
+              {
+                label: Projects,
+                name: projects,
+                widget: list,
+                fields:
+                  [
+                    { label: Visible, name: visible, widget: boolean },
+                    { label: Projectname, name: project, widget: text },
+                    { label: Duration, name: duration, widget: text },
+                    { label: Text, name: text, widget: text },
+                  ],
+              },
+            ],
+        }
